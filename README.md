@@ -1,7 +1,7 @@
 # Web-Projects
 The "Web Projects using HTML and CSS" repository is a collection of web development projects that are built primarily using HTML and CSS. These projects serve as practical examples and templates to help developers and designers enhance their front-end skills and gain inspiration for creating visually appealing and functional websites.
+The repository includes a diverse range of projects, each focusing on different aspects of web development with HTML and CSS.
 
-The repository includes a diverse range of projects, each focusing on different aspects of web development with HTML and CSS. Here's an overview of the projects:
 ![image](https://github.com/Adeelmunir707/Web-Projects/assets/111064925/94c39ec2-e91e-4a8b-87bd-de4ab8fa440a)
 ![image](https://github.com/Adeelmunir707/Web-Projects/assets/111064925/169f7f0a-7ddf-4968-8b6e-3f77c35295d3)
 ![image](https://github.com/Adeelmunir707/Web-Projects/assets/111064925/51b86e66-a486-48d2-ab51-837018580dc0)
