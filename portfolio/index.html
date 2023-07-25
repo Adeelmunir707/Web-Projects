@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Web Page - CSS</title>
+  <link rel="icon" href="profile_CV.jpg.jpeg" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <header>
+    <h1>Hello, I'm Adeel Munir</h1>
+    <p>I'm a web developer passionate about building awesome websites.</p>
+    <a href="https://www.linkedin.com/in/adeel-munir-707b3b21a/" class="btn">Get In Touch</a>
+
+    <nav>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/adeel-munir-707b3b21a/">About  Adeel</a></li>
+        <li><a href="https://github.com/Adeelmunir707">Github</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section>
+      <h2>Welcome</h2>
+      <p>Hi! It's me Adeel Munir, currently Bachelors of Computer System Engineering at UET PEshawar. </p>
+      <img src="profile.jpeg" alt="Sample Image" height="600" width="500">
+    </section>
+
+    <section>
+      <h2>About ME</h2>
+      <p>My expertise and Certifications</p>
+      <blockquote>
+        <p>“Certifications and proficiency in web development (front-end), C++,<br>
+             Python & Matlab and Proteus softwares. Adaptability, strong team  <br>
+             player, strong communication, public speaking & presentation skills.  <br>
+             energetic, focused, hardworking, keeping a positive mindset and result  <br>
+             oriented. Highly flexible, Willingness to learn and take up new challenges.”</p>
+        <cite>Adeel Munir</cite>
+      </blockquote>
+    </section>
+
+    <section id="projects">
+        <h2><u>MY PROJECTS</u></h2>
+        <div>
+            <h3>Speech to text conversion</h3>
+               <p>Takes the speech on runtime from user and convert it text.</p>
+                <img src="speech-to-text.webp" alt="Project 1" width="500" height="300">
+        </div>
+        <div>
+          <h3>Portfolio</h3>
+          <p>This portfolio using HTML and CSS</p>
+          <img src="html-css.jpg" alt="Project 2" width="500" height="300">
+        </div>
+
+      </section>
+
+    <section>
+      <h2 id="contact"><u>Contact Me</u></h2>
+      <form action="send_email_adeel.com" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Sample Web Page. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

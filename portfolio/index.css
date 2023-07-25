@@ -1,0 +1,99 @@
+  /* Apply styles to the elements */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e0e0e0;
+    color: #333;
+}
+  
+h1{
+    text-align: center;
+    color: rgb(251, 255, 7);
+    font-size: 48px;
+}
+  
+header {
+    text-align: center;
+    background-color: #57b1b1;
+    padding: 20px;
+    color: #fff;
+}
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+  
+nav li,a:hover {
+    color: #333;
+    display: inline-block;
+    margin-right: 20px;
+}  
+  
+main {
+    padding: 20px;
+}
+  
+  section {
+    margin-bottom: 40px;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+  
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #333;
+    padding-left: 10px;
+}
+  
+form {
+    margin-top: 20px;
+}
+  
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+  
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+  
+button {
+    background-color: #57b1b1;;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+footer {
+    background-color: #57b1b1;;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+  
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+  
+    nav li {
+      display: block;
+      margin-bottom: 10px;
+    }
+}
+  
