@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #192d35; 
+    color: #f7f2f2; 
+    padding: 10px 30px;
+  }
+.navbar img:hover{
+    border-radius: 2rem;
+}
+
+.navbar-menu  {
+    list-style: none;
+    display: flex;
+    margin-left: 130px;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-left: 15px;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-item a:hover {
+    background-color: #555; /* Set your preferred hover background color */
+    border-radius: 5px;
+  }
+.navbar li{
+    list-style: none;
+}
+  /* ------------------------------------ */
+  
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 70%;
+}
+  
+.text-overlay {
+  position:absolute;
+  top: 35%;
+  left: 5%;
+  color: rgb(36, 42, 49);
+    
+}
+  
+h1 {
+  font-size: 2.5rem;
+}
+  
+p {
+  font-size: 1.3rem;
+  text-align: left;
+}
+  
+.book-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+ border-radius: 2rem;
+  
+} 
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+/* ---------------------------------------------------------- */
+
+/* Apply general styles to the form */
+.form {
+  background-image: linear-gradient(to right,rgb(70, 70, 128),rgb(87, 190, 122),rgb(214, 214, 90));
+  color:#dfe9e7 ;
+  max-width: 100%;
+  padding: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+  columns: 2;
+}
+
+
+/* Style form inputs and selects */
+form input[type="text"],
+form input[type="password"],
+form input[type="date"],
+form select {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid #382b18;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+form input[type="checkbox"] :hover{
+  margin-right: 5px;
+}
+
+/* Style radio button options */
+form input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Style the submit button */
+.submit {
+margin-left: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style the file input */
+form input:hover[type="file"] {
+  margin-bottom: 10px;
+  color: #336965 ;
+  
+}
+
+/* Style the reset button */
+form input[type="reset"] {
+  padding: 10px 20px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form input[type="reset"]:hover {
+  background-color: #336965;
+}
+
+/* -------------------- Footer and submit button ---------------------------- */
+
+.submit{
+  /* margin-left: 2%; */
+  padding: 10px 20px;
+  font-size :1.2rem;
+  color:#f7f2f2 ;
+  background-color:#192d35 ;
+  border: none;
+  border-radius:0.5rem;
+}
+.submit:hover {
+  background-color: #0056b3;
+}
+
+footer{
+  text-align: center;
+  color: #f7f2f2;
+  background-color:#192d35 ;
+  padding: 20px;
+}
