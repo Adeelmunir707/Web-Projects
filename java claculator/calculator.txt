@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>Calculator</title>
+		<style>
+			body{ padding: 00px 300px 00px 300px;
+            border: solid #3835dd;
+            border-radius: 4rem;
+
+			}
+			#heading{text-align: center;
+            padding: 20px 30px 00px 00px;
+            border: solid #4f87a1;
+            border-radius: 4rem;
+            background-color:rgb(243, 218, 165);
+            color: rgb(38, 36, 133);
+			}
+		</style>
+	</head>
+	<body background="walpaper11.jpg">
+		<div align="center" id="div"><br><br>
+			<h1 id="heading">My Calculator</h1>
+			<br />
+			<form>
+				<label>
+			 Number 1<label style="padding-left: 130px; font-style: bolder;"></label>Symbol<label style="padding-left: 180px;"> Number 2</label><br />
+					</label>
+				<input type="text" id="num1" placeholder="1st Number">
+				<input type="text" id="sign" placeholder="Operation">
+				<input type="text" id="num2" placeholder="2nd number"><br><br>
+				<input type="button" onclick="calculate()" value="Calculate">
+			
+			</form>
+			<br>
+			<h3 id="result"></h3>
+			<script>
+				const calculate =() => {
+					var first, second, resultantVar;
+
+					first = Number(document.getElementById('num1').value);
+					second = Number(document.getElementById('num2').value);
+					sign = (document.getElementById('sign').value);
+				
+
+					if(sign == "+"){
+						resultantVar = (document.getElementById('result').innerHTML = "Your Calculated value is: " + (first+second))
+					}else if(sign == "-"){
+						resultantVar = (document.getElementById('result').innerHTML = "Your Calculated value is: " + (first-second))
+					}else if(sign == "*"){
+						resultantVar = (document.getElementById('result').innerHTML = "Your Calculated value is: " + (first*second))
+					}else if(sign == "/"){
+						resultantVar = (document.getElementById('result').innerHTML = "Your Calculated value is: " + (first/second))
+					}else {
+						resultantVar = (document.getElementById('result').innerHTML = "Wrong Symbol")
+					}
+				}
+
+			</script>
+		</div>
+	</body>
+</html>
